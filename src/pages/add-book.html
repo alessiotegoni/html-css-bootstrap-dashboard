@@ -49,7 +49,7 @@
             </ul>
             <form class="d-flex" role="search">
               <input
-                class="form-control me-2"
+                class="form-control fw-semibold me-2"
                 type="search"
                 placeholder="Search"
                 aria-label="Search"
@@ -63,5 +63,50 @@
         </div>
       </nav>
     </header>
+    <main>
+      <div class="container">
+        <h1 class="mt-5 mb-4">Nuovo Libro</h1>
+        <form class="row">
+          <div class="col-6">
+            <label for="authorFirstName" class="form-label h5"
+              >Nome Autore</label
+            >
+            <input
+              type="text"
+              id="authorFirstName"
+              name="authorFirstName"
+              placeholder="Inserisci il nome dell'autore"
+              class="form-control fw-semibold"
+              required
+            />
+          </div>
+          <div class="col-6 mb-3">
+            <label for="authorLastName" class="form-label h5"
+              >Cognome Autore</label
+            >
+            <input
+              type="text"
+              id="authorLastName"
+              name="authorLastName"
+              placeholder="Inserisci il cognome dell'autore"
+              class="form-control fw-semibold"
+              required
+            />
+          </div>
+          <div class="mb-3">
+            <label for="bookTitle" class="form-label h5">Titolo</label>
+            <input
+              type="text"
+              id="bookTitle"
+              name="bookTitle"
+              placeholder="Inserisci il titolo del libro"
+              class="form-control fw-semibold"
+              required
+            />
+            <p class="form-text fw-semibold">Titolo versione italiana</p>
+          </div>
+        </form>
+      </div>
+    </main>
   </body>
 </html>
