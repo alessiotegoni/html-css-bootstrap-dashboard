@@ -80,7 +80,7 @@
               required
             />
           </div>
-          <div class="col-6 mb-3">
+          <div class="col-6 mb-4">
             <label for="authorLastName" class="form-label h5"
               >Cognome Autore</label
             >
@@ -93,7 +93,7 @@
               required
             />
           </div>
-          <div class="mb-3">
+          <div class="mb-2">
             <label for="bookTitle" class="form-label h5">Titolo</label>
             <input
               type="text"
@@ -104,6 +104,40 @@
               required
             />
             <p class="form-text fw-semibold">Titolo versione italiana</p>
+          </div>
+          <div class="mb-4 col-lg-4">
+            <label for="bookGenre" class="form-label h5">Genere</label>
+            <select
+              name="bookGenre"
+              id="bookGenre"
+              class="form-select fw-semibold"
+            >
+              <option value="">Scegli il genere</option>
+            </select>
+          </div>
+          <div class="mb-4 col-lg-4">
+            <label for="pubYear" class="form-label h5"
+              >Anno di pubblicazione</label
+            >
+            <input
+              type="number"
+              id="pubYear"
+              name="pubYear"
+              placeholder="Inserisci l'anno"
+              class="form-control fw-semibold"
+              required
+            />
+          </div>
+          <div class="mb-4 col-lg-4">
+            <label for="ISBNCode" class="form-label h5">ISBN#</label>
+            <input
+              type="number"
+              id="ISBNCode"
+              name="ISBNCode"
+              placeholder="Inserisci il codice ISBN#"
+              class="form-control fw-semibold"
+              required
+            />
           </div>
         </form>
       </div>
